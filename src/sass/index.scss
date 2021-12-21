@@ -1,8 +1,22 @@
 @import "./base";
-@import "./components/header";
-@import "./components/homepage";
-@import "./components/profile";
-@import "./components/setting";
-@import "./components/community";
-@import "./components/sportsee-charts";
-@import "./components/personaldata"
+//scss pour les cards
+@import './components/stylescards/detailsactivitycards';
+@import "./components/stylescards/headercard";
+@import "./components/stylescards/personaldatacard";
+
+//scss pour les charts
+@import "./components/stylescharts/averagesessionschart";
+@import "./components/stylescharts/dailyactivitychart";
+@import "./components/stylescharts/performancechart";
+@import "./components/stylescharts/scorechart";
+
+//scss pour les pages pricipales
+@import "./components/stylespages/homepage";
+@import "./components/stylespages/profile";
+@import "./components/stylespages/setting";
+@import "./components/stylespages/community";
+@import "./components/stylespages/errorpage";
+
+
+
+@import "./components/navbox"

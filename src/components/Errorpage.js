@@ -1,14 +1,18 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-const Errorpage = (props) => {
+const Errorpage = () => {
   return (
     <div>
-      <h1>Page Erreur</h1>
+      <div className="errorpage__container">
+        <h1>404</h1>
+        <p>Oups! La page que vous demandez n'existe pas.</p>
+      </div>
+      <Link to="/">
+        <h4 className="error__link">Retourner à la page d'accueil</h4>
+      </Link>
     </div>
   );
 };
-
-Errorpage.propTypes = {};
 
 export default Errorpage;

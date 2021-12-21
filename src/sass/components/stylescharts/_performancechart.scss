@@ -1,0 +1,13 @@
+.intensity-charts {
+    width: 32%;
+    height: 200px;
+    background: #282D30;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+    border-radius: 5px;
+    position: relative;
+}
+
+/* suppression ligne a l'interieur du radar  */
+.recharts-polar-grid-angle line {
+    stroke: none;
+}

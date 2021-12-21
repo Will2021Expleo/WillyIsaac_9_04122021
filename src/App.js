@@ -12,8 +12,8 @@ function App() {
       <Navbox />
 
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/profile/:id" element={<Profile />} />
+        <Route path="/:id" element={<Homepage />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/setting" element={<Setting />} />
         <Route path="/community" element={<Community />} />
         <Route path="*" element={<Errorpage />} />

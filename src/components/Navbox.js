@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, Routes, Route } from "react-router-dom";
-import Profil from "../pages/Profile";
-import Homepage from "../pages/Homepage";
+import { Link } from "react-router-dom";
+// import Profil from "../pages/Profile";
+// import Homepage from "../pages/Homepage";
 
 import logo from "../assets/logo.svg";
 import yoga from "../assets/yoga.svg";
